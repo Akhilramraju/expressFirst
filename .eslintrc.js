@@ -10,6 +10,7 @@ module.exports = {
   },
   rules: {
     "linebreak-style": 0,
+    "comma-dangle": 0,
     quotes: [2, "double", { avoidEscape: false }],
   },
 };
