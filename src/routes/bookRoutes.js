@@ -5,6 +5,10 @@ const bookRouter = express.Router();
 function router(nav) {
   const books = [{
     title: "By Tom",
+    genre: "Music Genre",
+    author: "Tom",
+    read: false
+
   }];
 
   bookRouter.route("/")
